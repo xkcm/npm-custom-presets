@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015"],
+    "target": "ES5",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": "dist/",
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist/**/*"
+  ]
+}
